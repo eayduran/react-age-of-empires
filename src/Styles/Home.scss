@@ -1,0 +1,44 @@
+
+$navbarcolor: rgb(0, 147, 255);
+
+.HomePage{
+    height: 95vh;
+    width: auto;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.Header{
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Image{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.Link{    
+    font-size: 26px;
+    margin-left: 34%;
+    margin-right: 30px;
+}
+
+.LinkHome{
+    color: $navbarcolor;
+    margin-right: 30px;
+}
+.LinkUnits{
+    color: $navbarcolor;
+}

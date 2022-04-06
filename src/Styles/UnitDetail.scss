@@ -1,0 +1,56 @@
+
+$navbarcolor: rgb(0, 147, 255);
+
+.UnitDetailPage{
+    height: 95vh;
+    width: auto;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.Header{
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Link{
+    font-size: 26px;
+    margin-left: 34%;
+    margin-right: 30px;
+}
+
+.LinkHome{
+    color: $navbarcolor;
+    margin-right: 30px
+}
+.LinkUnits{
+    color: $navbarcolor;
+}
+
+.TableContainer{
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+.TableDetails{
+    width: 80%;
+    font-size: 30px;
+}
+.innerTable{
+    height: 40px;
+}
+.innerTableh{
+    height: 40px;
+    width: 26%;
+}
