@@ -8,6 +8,10 @@ This project was uploaded for demo: https://react-age-of-empires.netlify.app/
 
 In the project directory, you can run:
 
+### `npm install`
+
+After that:
+
 ### `npm start`
 
 
